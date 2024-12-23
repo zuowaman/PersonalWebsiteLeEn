@@ -10,7 +10,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8" />
-    <title>布萊德誌特</title>
+    <title></title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
@@ -20,16 +20,24 @@
 
 <body>
 
-    <header class="navbar navbar-expand-md fixed-top  bg-light border-bottom " data-bs-theme="dark">
+    <header class="navbar navbar-expand-md fixed-top bg-light border-bottom">
         <div class="container">
-            <ul class="nav nav-pills ">
-                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="GameDesign.html" class="nav-link">PC</a></li>
-                <li class="nav-item"><a href="ARVR.html" class="nav-link">AR/VR</a></li>
-                <li class="nav-item"><a href="HCI.html" class="nav-link">HCI</a></li>
-            </ul>
+            <a class="navbar-brand d-none d-md-block" href="index.html"></a> <!-- 可選的品牌 Logo -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center mt-3" id="navbarCollapse">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                    <li class="nav-item"><a href="GameDesign.html" class="nav-link">PC</a></li>
+                    <li class="nav-item"><a href="ARVR.html" class="nav-link">AR/VR</a></li>
+                    <li class="nav-item"><a href="HCI.html" class="nav-link">HCI</a></li>
+                </ul>
+            </div>
+            
         </div>
     </header>
+    
     <div class="flex-shrink-0">
         <div class="container">
             <h1 class="mt-5"></h1>

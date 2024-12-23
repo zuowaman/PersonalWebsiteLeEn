@@ -17,20 +17,25 @@
 
 <body>
 
-  <button type="button" id="btn-back-to-top">
-    <img src="/img/arrow-bar-up.svg" alt="back-to-top">
-  </button>
 
-  <header class="navbar navbar-expand-md fixed-top  bg-light border-bottom" data-bs-theme="dark">
+
+  <header class="navbar navbar-expand-md fixed-top bg-light border-bottom">
     <div class="container">
-      <ul class="nav nav-pills ">
-        <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
-        <li class="nav-item"><a href="GameDesign.html" class="nav-link active" aria-current="page">PC</a></li>
-        <li class="nav-item"><a href="ARVR.html" class="nav-link">AR/VR</a></li>
-        <li class="nav-item"><a href="HCI.html" class="nav-link">HCI</a></li>
-      </ul>
+        <a class="navbar-brand d-none d-md-block" href="index.html"></a> <!-- 可選的品牌 Logo -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center mt-3" id="navbarCollapse">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="GameDesign.html" class="nav-link">PC</a></li>
+                <li class="nav-item"><a href="ARVR.html" class="nav-link">AR/VR</a></li>
+                <li class="nav-item"><a href="HCI.html" class="nav-link">HCI</a></li>
+            </ul>
+        </div>
+        
     </div>
-  </header>
+</header>
   <div class="flex-shrink-0">
     <div class="container">
       <h1 class="mt-5"></h1>
