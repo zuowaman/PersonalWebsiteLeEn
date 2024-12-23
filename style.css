@@ -4,3 +4,11 @@ h1 {
   color: #333;
   /* 深灰色，適合大多數背景 */
 }
+
+.navbar {
+  background-color: #f8f9fa; /* 淺色背景 */
+  transition: background-color 0.3s ease-in-out;
+}
+.navbar.scrolled {
+  background-color: #ffffff; /* 滾動後變白色 */
+}
